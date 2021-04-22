@@ -7,7 +7,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Composer\IO\IOInterface;
-use MatthiasMullie\Minify\Css as Minifier;
+use MatthiasMullie\Minify\CSS as Minifier;
 
 
 class MinifyCssTask extends Task {
