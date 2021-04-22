@@ -7,7 +7,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Composer\IO\IOInterface;
-use MatthiasMullie\Minify\Js as Minifier;
+use MatthiasMullie\Minify\JS as Minifier;
 
 
 class MinifyJsTask extends Task {
